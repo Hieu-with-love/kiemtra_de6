@@ -39,6 +39,7 @@
 <!-- Wrapper End-->
 <%@include file="/commons/admin/footer.jsp"%>
 <!-- Backend Bundle JavaScript -->
+
 <script src="${URL}template/assets/js/backend-bundle.min.js"></script>
 
 <!-- Table Treeview JavaScript -->

@@ -25,6 +25,12 @@
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     <div class="floating-label form-group">
+                                                        <input class="floating-input form-control" type="text" name="username" placeholder=" ">
+                                                        <label>Username</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="floating-label form-group">
                                                         <input class="floating-input form-control" type="text" name="fullname" placeholder=" ">
                                                         <label>Full Name</label>
                                                     </div>
@@ -41,6 +47,21 @@
                                                         <label>Phone No.</label>
                                                     </div>
                                                 </div>
+
+                                                <div class="col-lg-6">
+                                                    <label>Admin:</label><br>
+                                                    <input type="radio" name="admin" value="0" checked> Yes
+                                                    <input type="radio" name="admin" value="1"> No
+                                                    <br><br>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <label>Active:</label><br>
+                                                    <input type="radio" name="active" value="0" checked> Yes
+                                                    <input type="radio" name="active" value="1"> No
+                                                    <br><br>
+                                                </div>
+
                                                 <div class="col-lg-6">
                                                     <div class="floating-label form-group">
                                                         <input class="floating-input form-control" type="password" name="password" placeholder=" ">

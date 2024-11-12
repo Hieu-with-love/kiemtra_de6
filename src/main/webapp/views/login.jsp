@@ -25,8 +25,8 @@
                                             <div class="row">
                                                 <div class="col-lg-12">
                                                     <div class="floating-label form-group">
-                                                        <input class="floating-input form-control" type="email" name="email" placeholder=" ">
-                                                        <label>Email</label>
+                                                        <input class="floating-input form-control" type="text" name="username" placeholder=" ">
+                                                        <label>Username</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12">
