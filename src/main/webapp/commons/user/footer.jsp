@@ -13,16 +13,16 @@
                 © All Copyright 2024 by <a href="index.html">Bookle</a>
             </p>
             <ul class="brand-logo wow fadeInRight" data-wow-delay=".5s">
-                <li>
+                <li class="wow fadeInLeft">
                     Tran Trung Hieu
-                </li>
-                <li>
+                </li >
+                <li class="wow fadeInLeft">
                     22110139
                 </li>
-                <li>
+                <li class="wow fadeInLeft">
                     Ma de so 6
                 </li>
-                <li>
+                <li class="wow fadeInLeft">
                     Xin loi thay em bi loi font nen em ghi khong dau
                 </li>
             </ul>

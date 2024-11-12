@@ -46,7 +46,12 @@
 
 <%@include file="/commons/user/header.jsp"%>
 
-<sitemesh:write property="body"/>
+<div class="container">
+    <sitemesh:write property="body"/>
+</div>
+
+<br/>
+<br/>
 
 <%@include file="/commons/user/footer.jsp"%>
 

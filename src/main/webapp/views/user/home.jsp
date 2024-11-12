@@ -17,14 +17,14 @@
                         <div class="tab-content">
                             <div id="thumb1" class="tab-pane fade show active">
                                 <div class="shop-details-thumb">
-                                    <img src="${pageContext.request.contextPath}/uploads/${book.cover_image}" alt="Cover Image" style="width: 100px; height: 150px;" />
+                                    <img src="${pageContext.request.contextPath}/uploads/${category.image}" alt="Cover Image" style="width: 100px; height: 150px;" />
                                 </div>
                             </div>
                         </div>
                         <ul class="nav">
                             <li class="nav-item">
                                 <a href="#thumb1" data-bs-toggle="tab" class="nav-link active">
-                                    <img src="${pageContext.request.contextPath}/uploads/${book.cover_image}" alt="Cover Image" style="width: 100px; height: 150px;" />
+                                    <img src="${pageContext.request.contextPath}/uploads/${category.image}" alt="Cover Image" style="width: 100px; height: 150px;" />
                                 </a>
                             </li>
                         </ul>
@@ -33,8 +33,8 @@
                 <div class="col-lg-7">
                     <div class="shop-details-content">
                         <div class="title-wrapper">
-                            <h2>${book.title}</h2>
-                            <h5>Stock availability.</h5>
+                            <h2>${video.title}</h2>
+                            <h5>Tieu de tieu bieu cua video.</h5>
                         </div>
                         <div class="star">
                             <a href="shop-details.html"> <i class="fas fa-star"></i></a>
@@ -48,26 +48,30 @@
                             <li></li>
                         </ul>
                         <div class="price-list">
-                            <h3>${book.price}</h3>
+                            <h3>${category.categoryName}</h3>
+                        </div>
+                        <div class="price-list">
+                            <h3>${video.videoId}</h3>
+                        </div>
+                        <div class="price-list">
+                            <h3>${video.views}</h3>
                         </div>
                         <div class="category-box">
                             <div class="category-list">
                                 <ul>
                                     <li>
-                                        Title: ${book.title}
+                                        Title: ${video.title}
                                     </li>
                                     <li>
-                                        ISBN Code: ${book.isbn}
+                                        Video Code: ${video.videoId}
                                     </li>
                                     <li>
-                                        Publisher: ${book.publisher}
+                                        Category Name: ${category.categoryName}
                                     </li>
                                     <li>
-                                        Publisher Date: ${book.publish_date}
+                                        So luong views: ${video.views}
                                     </li>
-                                    <li>
-                                        quantity: ${book.quantity}
-                                    </li>
+
                                 </ul>
                                 <br/>
                                 <br/>
@@ -125,11 +129,11 @@
                                 </tr>
                                 <tr>
                                     <td class="text-1">Categories</td>
-                                    <td class="text-2">Book</td>
+                                    <td class="text-2">Video</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-1">Publish Date</td>
-                                    <td class="text-2">${book.publish_date}</td>
+                                    <td class="text-1">Title</td>
+                                    <td class="text-2">${video.title}</td>
                                 </tr>
                                 <tr>
                                     <td class="text-1">Total Page</td>
